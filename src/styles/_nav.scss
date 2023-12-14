@@ -1,0 +1,65 @@
+.Nav {
+    // position: relative;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+
+    &.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .nav-menu-item {
+        position: relative;
+        color: inherit;
+        transition: all 0.2s ease-in-out;
+    
+        &::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          width: 1.75rem;
+          height: 3px;
+          transform: translateX(-50%);
+          background-color: $theme-teal-dark;
+          opacity: 0;
+          transition: opacity 0.2s ease-in-out;
+        }
+    
+        &.active {
+            color: $theme-teal !important;
+            &::after {
+              opacity: 1;
+            }
+          }
+        
+    
+        &:hover {
+            color: $theme-teal;
+          &.active::after {
+            opacity: 1;
+          }
+          &::after {
+            opacity: 1;
+          }
+        }
+      }
+}
+
+.side-bar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right,$theme-teal-dark,$theme-teal);
+  padding: 2rem;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+  z-index: 200;
+}
+
+.show-side-bar {
+  transform: translateX(0);
+}
