@@ -17,6 +17,18 @@ body {
   color: rgba(13, 35, 68, 0.8);
 }
 
+h1 {
+  line-height: unset !important;
+
+  @media screen and (min-width: 768px) {
+    line-height: 4rem !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    line-height: 4.5rem !important;
+  }
+}
+
 .container {
   max-width: 90%;
   margin-left: auto;
