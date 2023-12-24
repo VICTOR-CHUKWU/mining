@@ -35,9 +35,7 @@ const HowWeWork = () => {
                     <h5 className=" text-black font-light mb-1 md:mb-3 text-lg md:text-2xl">How we work</h5>
                     <h2 className=" text-black text-xl md:text-3xl mb-2 md:mb-4 font-semibold">Our working process</h2>
                     <p className=" mb-2 text-sm md:text-base text-left">
-                        Lorem ipsum dolor sit amet consectetur. Ac purus id euismod accumsan
-                        et sit varius maecenas pellentesque. Ac in ultricies convallis
-                        platea a in bibendum sagittis risus. Placerat nunc est ante nunc.
+                        Before breaking ground, our geologists and engineers collaborate, leveraging virtual mine planning systems. This advanced approach allows us to design optimal, cost-efficient, and environmentally sound mine plans, ensuring excellence from the outset
                     </p>
                     <div className=" flex flex-col gap-5 mt-5">
                         {proccess.map(renderProcess)}

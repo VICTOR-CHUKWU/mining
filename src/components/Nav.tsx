@@ -25,7 +25,7 @@ const Nav = () => {
             <Link
                 key={url}
                 href={url}
-                className={`nav-menu-item pb-1 text-lg ${pathname === url || (pathname === '/' && url === '/')
+                className={`nav-menu-item pb-1 text-base ${pathname === url || (pathname === '/' && url === '/')
                     ? "active"
                     : ""
                     }`}

@@ -1,12 +1,13 @@
 @import "../constant";
 
 .header {
-  background: linear-gradient(
-      0deg,
-      rgba(30, 17, 92, 0.3),
-      rgba(45, 18, 121, 0.3)
-    ),
-    url("/img/home/header.png");
+  // background: linear-gradient(
+  //     0deg,
+  //     rgba(30, 17, 92, 0.3),
+  //     rgba(45, 18, 121, 0.3)
+  //   ),
+  //   url("/img/home/header.png");
+  background-image:  url("/img/home/header.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -11,11 +11,7 @@ const Header = () => {
                         What we do
                     </h2>
                     <p className=" text-sm md:text-base">
-                        Albarika Mining Ltd is a pioneering force in the extraction and
-                        exploration of Earth&apos;s valuable mineral resources. Established with
-                        a commitment to sustainable and responsible mining practices, we
-                        specialize in uncovering treasures that fuel progress and
-                        innovation.
+                        Albarika Mining Ltd specializes in advancing mining exploration and extraction for Earth&apos;s essential resources. Focused on sustainable growth, we find, plan, build, mine, process, move, and market a diversified and high-quality range of products, spanning bulk commodities, and precious metals and minerals.
                     </p>
                 </div>
                 <div className=" mt-8 w-full relative h-[20rem]">

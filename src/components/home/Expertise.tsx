@@ -38,7 +38,7 @@ const Expertise = () => {
                 <div className=' w-full md:w-1/2 flex flex-col gap-3'>
                     <h5 className=' text-lg font-light text-slate-900'>Expertise</h5>
                     <h2 className=' font-semibold text-xl md:text-3xl text-slate-900'>Extracting wealth</h2>
-                    <p className=' text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur. Ac purus id euismod accumsan et sit varius maecenas pellentesque. Ac in ultricies convallis platea a in bibendum sagittis risus. Placerat nunc est ante nunc.</p>
+                    <p className=' text-sm md:text-base'>our expertise spans from strategic planning to sustainable extraction and marketing. We specialize in delivering diversified, high-quality products, ensuring that each step in the process contributes to building a resilient and prosperous future. </p>
                 </div>
                 <div className=' mt-10'>
                     <Swiper

@@ -12,9 +12,7 @@ const Header = () => {
                         Mineral resources
                     </h2>
                     <p className=" mb-2 text-sm md:text-base text-left">
-                        Lorem ipsum dolor sit amet consectetur. Ac purus id euismod accumsan
-                        et sit varius maecenas pellentesque. Ac in ultricies convallis
-                        platea a in bibendum sagittis risus. Placerat nunc est ante nunc.
+                        Albarika supplies the essential metals and minerals that drive global development and shape a sustainable future.
                     </p>
                 </div>
             </div>

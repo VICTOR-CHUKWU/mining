@@ -25,9 +25,7 @@ const OurWork = () => {
                         Mining Excellence
                     </h2>
                     <p className=" text-sm md:text-base">
-                        Lorem ipsum dolor sit amet consectetur. Ac purus id euismod accumsan
-                        et sit varius maecenas pellentesque. Ac in ultricies convallis
-                        platea a in bibendum sagittis risus. Placerat nunc est ante nunc.
+                        From discovery to market, our commitment to excellence shines through every phase. We excel in finding, planning, building, mining, processing, moving, and marketing a diverse range of high-quality products.
                     </p>
                 </div>
                 <div className=" mt-10">

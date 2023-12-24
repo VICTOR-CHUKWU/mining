@@ -20,9 +20,9 @@ const Vission = () => {
                         responsibility.
                     </p>
                 </div>
-                <div className=" relative w-full h-[24rem]">
+                <div className=" relative w-full rounded-md overflow-hidden h-[24rem]">
                     <Image
-                        src="/img/home/about.png"
+                        src="/img/vission.png"
                         alt="about"
                         layout="fill"
                         objectFit="cover"
