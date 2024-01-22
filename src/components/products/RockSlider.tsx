@@ -30,7 +30,7 @@ const RockSlider = ({ head, data, isRight = false }: { head: string, data: IProd
     }, []);
     return (
         <>
-            <div className=' py-10'>
+            <div className=' py-10 pb-10 lg:pb-24'>
                 <div className="container">
                     <h3 className=' mb-3 text-right font-semibold text-black text-xl'>{head}</h3>
                     <div>

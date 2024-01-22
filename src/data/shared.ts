@@ -16,14 +16,14 @@ export const EXPERTISE: IExpertProject[] = [
     },
 
     {
-        img: '/img/home/expert2.png',
+        img: '/img/home/gallery/drilling.jpg',
         name: 'DRILLING and BLASTING',
         description: `Good drilling and blasting are like the foundation of a strong building—they improve the quality of the holes we make and how we blast, which, in turn, makes loading, hauling, and crushing rocks much better. At Albarika Mining, we're experts in drilling and blasting.
         `
     },
 
     {
-        img: '/img/home/expert2.png',
+        img: '/img/home/gallery/mining-excavator-night.jpg',
         name: 'EXCAVATION',
         description: `At Albarika Mining, we provide comprehensive excavation services for construction and landscaping projects. Using a range of equipment, from small skid steers to large excavators and bulldozers, we shape the land to your exact specifications.
         `
@@ -68,4 +68,4 @@ export const SERVICES: IService[] = [
     },
 ]
 
-export const MININGEXCELENCE = ['/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png', '/img/home/expert2.png']
+export const MININGEXCELENCE = ['/img/home/gallery/blasting.jpg', '/img/home/gallery/drilling.jpg', '/img/home/gallery/equipment.jpg', '/img/home/gallery/extraction.jpg', '/img/home/gallery/iro-ore-mining.jpg', '/img/home/gallery/mining-site.jpg', '/img/home/gallery/on-site.jpg', '/img/home/gallery/Upclose-Excavator.jpg']
