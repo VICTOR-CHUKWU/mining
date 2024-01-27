@@ -2,7 +2,7 @@
 import React, { useCallback, useState } from 'react'
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { IProduct } from '@/types';
 import { ProductModal } from '../shared';
 
@@ -44,15 +44,30 @@ const RockSlider = ({ head, data, isRight = false }: { head: string, data: IProd
                                 reverseDirection: isRight,
                             }}
                             spaceBetween={30}
+                            navigation={{
+                                nextEl: `.${head.replace(/\s+/g, '-')}-next`,
+                                prevEl: `.${head.replace(/\s+/g, '-')}-prev`,
+                            }}
                             loop={true}
                             pagination={{
                                 clickable: true,
                             }}
-                            modules={[Autoplay]}
+                            modules={[Autoplay, Navigation]}
                             className="mySwiper"
                         >
                             {data.map(renderRocks)}
                         </Swiper>
+                        <div className=' relative h-4 mb-0'>
+                            <button className={`outline-none bg-slate-100 bg-opacity-50 ${head.replace(/\s+/g, '-')}-prev text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 left-[30%] lg:left-[45%]`}
+                            >
+                                <span className="material-icons text-purple-900">chevron_left</span>
+                            </button>
+                            <button className={`outline-none bg-slate-100 bg-opacity-50 ${head.replace(/\s+/g, '-')}-next text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 right-[30%] lg:right-[45%]`}
+
+                            >
+                                <span className="material-icons text-purple-900">chevron_right</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

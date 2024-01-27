@@ -8,7 +8,7 @@ const About = () => {
                 <div className=" w-full h-[18rem] md:h-full flex flex-col justify-center md:w-11/12 bg-white rounded-t-md md:rounded-md px-8 py-14 ">
                     <div className=" w-full md:w-1/2 flex flex-col gap-3">
                         <h5 className=" text-lg font-light text-slate-900">About us</h5>
-                        <h2 className=" font-semibold text-3xl text-slate-900">
+                        <h2 className=" font-semibold md:text-4xl text-slate-900">
                             What we do
                         </h2>
                         <p className="">

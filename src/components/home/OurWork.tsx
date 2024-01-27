@@ -2,7 +2,7 @@
 import React, { useCallback } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { MININGEXCELENCE } from "@/data";
 
 const OurWork = () => {
@@ -21,7 +21,7 @@ const OurWork = () => {
             <div className="container">
                 <div className=" w-full md:w-1/2 flex flex-col gap-3">
                     <h5 className=" text-lg font-light text-slate-900">Our work</h5>
-                    <h2 className=" font-semibold text-xl md:text-3xl text-slate-900">
+                    <h2 className=" font-semibold text-xl md:text-4xl text-slate-900">
                         Mining Excellence
                     </h2>
                     <p className=" text-sm md:text-base">
@@ -39,14 +39,29 @@ const OurWork = () => {
                         }}
                         spaceBetween={30}
                         loop={true}
+                        navigation={{
+                            nextEl: '.nexts-buttons',
+                            prevEl: '.prevs-buttons'
+                        }}
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Autoplay]}
+                        modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >
                         {MININGEXCELENCE.map(renderExpert)}
                     </Swiper>
+                    <div className=' relative h-4 mb-16'>
+                        <button className=" outline-none bg-slate-100 bg-opacity-50 prevs-buttons text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 left-[30%] lg:left-[45%]"
+                        >
+                            <span className="material-icons text-purple-900">chevron_left</span>
+                        </button>
+                        <button className=" outline-none bg-slate-100 bg-opacity-50 nexts-buttons text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 right-[30%] lg:right-[45%]"
+
+                        >
+                            <span className="material-icons text-purple-900">chevron_right</span>
+                        </button>
+                    </div>
                 </div>
                 <div className=" w-full md:w-2/3 mx-auto my-2 md:my-5 flex items-center gap-4 md:gap-10">
                     <div className=" flex flex-col gap-2 w-[30%] border-r-2 border-slate-300 shrink-0 items-center">

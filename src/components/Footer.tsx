@@ -18,7 +18,7 @@ const Footer = () => {
                                 height={0}
                             />
                         </Link>
-                        <p className=' text-sm italic '>We help you manage your mine</p>
+                        <p className=' text-sm italic '>Mining Today for a Sustainable Tomorrow: Crafting a Legacy Beneath the Surface.</p>
                         {/* <div className=' flex items-center gap-6'>
                             <Link href='/' className=" relative cursor-pointer" >
                                 <SVGIcon name='face-book' size='tiny' className=' text-white' />

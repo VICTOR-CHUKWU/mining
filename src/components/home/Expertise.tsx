@@ -2,7 +2,7 @@
 import React, { useCallback } from 'react'
 import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { IExpertProject } from '@/types';
 import { EXPERTISE } from '@/data';
 
@@ -37,24 +37,23 @@ const Expertise = () => {
             <div className="container">
                 <div className=' w-full md:w-1/2 flex flex-col gap-3'>
                     <h5 className=' text-lg font-light text-slate-900'>Expertise</h5>
-                    <h2 className=' font-semibold text-xl md:text-3xl text-slate-900'>Extracting wealth</h2>
+                    <h2 className=' font-semibold text-xl md:text-4xl text-slate-900'>Extracting wealth</h2>
                     <p className=' text-sm md:text-base'>our expertise spans from strategic planning to sustainable extraction and marketing. We specialize in delivering diversified, high-quality products, ensuring that each step in the process contributes to building a resilient and prosperous future. </p>
                 </div>
                 <div className=' mt-10'>
                     <Swiper
                         slidesPerView={'auto'}
                         speed={600}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                            pauseOnMouseEnter: true
-                        }}
                         spaceBetween={30}
                         loop={true}
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Autoplay]}
+                        navigation={{
+                            nextEl: '.next-buttons',
+                            prevEl: '.prev-buttons'
+                        }}
+                        modules={[Pagination, Navigation]}
                         className="expertSwiper"
                     >
                         {
@@ -62,6 +61,17 @@ const Expertise = () => {
                         }
 
                     </Swiper>
+                    <div className=' relative h-4'>
+                        <button className=" outline-none bg-slate-100 bg-opacity-50 prev-buttons text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 left-[30%] lg:left-[45%]"
+                        >
+                            <span className="material-icons text-purple-900">chevron_left</span>
+                        </button>
+                        <button className=" outline-none bg-slate-100 bg-opacity-50 next-buttons text-4xl rounded-lg py-1 px-2 flex items-center justify-center absolute z-10 -bottom-8 right-[30%] lg:right-[45%]"
+
+                        >
+                            <span className="material-icons text-purple-900">chevron_right</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

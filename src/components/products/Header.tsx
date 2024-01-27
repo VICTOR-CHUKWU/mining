@@ -8,7 +8,7 @@ const Header = () => {
                     <h5 className=" text-black font-light mb-1 md:mb-3 text-lg md:text-2xl">
                         Products
                     </h5>
-                    <h2 className=" text-black text-xl md:text-3xl mb-2 md:mb-4 font-semibold">
+                    <h2 className=" text-black text-xl md:text-4xl mb-2 md:mb-4 font-semibold">
                         Mineral resources
                     </h2>
                     <p className=" mb-2 text-sm md:text-base text-left">

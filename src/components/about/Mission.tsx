@@ -24,7 +24,7 @@ const Mission = () => {
                     <h5 className=" text-white font-light mb-1 md:mb-3 text-lg md:text-2xl">
                         Our Mission
                     </h5>
-                    <h2 className=" text-white text-xl md:text-3xl mb-2 md:mb-4 font-semibold">
+                    <h2 className=" text-white text-xl md:text-4xl mb-2 md:mb-4 font-semibold">
                         Get to Know Us
                     </h2>
                     <p className=" mb-2 text-sm md:text-base text-white text-left">

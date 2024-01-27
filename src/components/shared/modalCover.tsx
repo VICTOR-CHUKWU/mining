@@ -57,9 +57,9 @@ export const Modal: FC<IProps> = ({
                         leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                         leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                     >
-                        <div className="relative inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-2xl sm:w-full">
+                        <div className="relative inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-3xl shadow-xl sm:my-8 sm:align-middle sm:max-w-2xl sm:w-full md:w-2/3">
                             <span
-                                className="absolute flex items-center justify-center w-8 h-8 bg-red-300 rounded-full cursor-pointer top-2 right-7"
+                                className="absolute flex items-center justify-center w-8 h-8 bg-slate-50 rounded-full cursor-pointer top-2 right-7"
                                 onClick={() => onHide()}
                             >
                                 <svg

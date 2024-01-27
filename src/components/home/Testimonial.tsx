@@ -24,9 +24,7 @@ const Testimonial = () => {
                     <h5 className=" text-black font-light mb-8 text-2xl">Testimonials</h5>
                     <h2 className=" text-black text-3xl mb-7 font-semibold">Mining Industry Testimonials</h2>
                     <p className=" mb-9 text-left">
-                        Lorem ipsum dolor sit amet consectetur. Ac purus id euismod accumsan
-                        et sit varius maecenas pellentesque. Ac in ultricies convallis
-                        platea a in bibendum sagittis risus. Placerat nunc est ante nunc.
+                        Our collaboration with Albarika has not only met but exceeded our expectations. A reliable partner in progress, they&apos;ve truly mined the path to success for our endeavors
                     </p>
                     <div className=" flex flex-col gap-1 w-[30%]">
                         <h4 className=" font-bold text-3xl text-black">200 +</h4>
