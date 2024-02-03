@@ -13,9 +13,9 @@ const Testimonial = () => {
                     <div className="flex gap-5">
                         <SVGIcon name='quote' />
                         <div className=" flex flex-col gap-5">
-                            <p className=" text-sm">Join us on our mission to empower the youth  and build a brighter, more prosperous future for young people.
+                            <p className=" text-sm"> our purpose is to extract resources responsibly, prioritize sustainability, support communities, and lead with integrity.
                             </p>
-                            <h4 className=" text-black text-lg mb-1 mt-2">Mr.Alabi daniels</h4>
+                            <h4 className=" text-black text-lg mb-1 mt-2">Founder , Albarika Mining</h4>
                         </div>
                     </div>
                 </div>

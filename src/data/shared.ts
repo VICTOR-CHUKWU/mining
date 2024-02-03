@@ -4,7 +4,6 @@ export const navMenuItems = [
     'Home|/',
     'About Us|/about',
     'Products|/products',
-    'FAQ|/faqs',
     'Contact Us|/contact',
 ]
 

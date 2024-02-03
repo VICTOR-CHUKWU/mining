@@ -18,7 +18,7 @@ const Footer = () => {
                                 height={0}
                             />
                         </Link>
-                        <p className=' text-sm italic '>Mining Today for a Sustainable Tomorrow: Crafting a Legacy Beneath the Surface.</p>
+                        <p className=' text-sm '>Mining Today for a Sustainable Tomorrow: Crafting a Legacy Beneath the Surface.</p>
                         {/* <div className=' flex items-center gap-6'>
                             <Link href='/' className=" relative cursor-pointer" >
                                 <SVGIcon name='face-book' size='tiny' className=' text-white' />
@@ -33,10 +33,9 @@ const Footer = () => {
 
                         <h4 className=' text-lg mb-5'>Links</h4>
                         <div className=' flex flex-col gap-3 '>
-                            <Link href='/about' className=" relative text-sm italic">About Us</Link>
-                            <Link href='/products' className=" relative text-sm italic">Products</Link>
-                            <Link href='/faqs' className=" relative text-sm italic">FAQS</Link>
-                            <Link href='/contact' className=" relative text-sm italic">Contact Us</Link>
+                            <Link href='/about' className=" relative text-sm">About Us</Link>
+                            <Link href='/products' className=" relative text-sm">Products</Link>
+                            <Link href='/contact' className=" relative text-sm">Contact Us</Link>
                         </div>
                     </div>
 
@@ -44,17 +43,17 @@ const Footer = () => {
 
                         <h4 className=' text-lg mb-5'>Services</h4>
                         <div className=' flex flex-col gap-3 '>
-                            <span className=" relative text-sm italic">Mining Ores</span>
-                            <span className=" relative text-sm italic">Mining Minerals</span>
-                            <span className=" relative text-sm italic">Selling Products</span>
+                            <span className=" relative text-sm">Mining Ores</span>
+                            <span className=" relative text-sm">Mining Minerals</span>
+                            <span className=" relative text-sm">Selling Products</span>
                         </div>
                     </div>
                     <div className=' w-[48%] md:w-[20%] text-white shrink-0'>
 
                         <h4 className=' text-lg mb-5'>Contact</h4>
                         <div className=' flex flex-col gap-3 '>
-                            <span className=" relative text-sm italic">call - +234 80 3619 0155</span>
-                            <span className=" relative text-sm italic">No 14, Oba Ovoranwen Street, Gwarimpa Estate, Abuja, Nigeria</span>
+                            <span className=" relative text-sm">call - +234 (0) 8030796358</span>
+                            <span className=" relative text-sm">4a Maman Nasir Street, Asokoro, Abuja-Nigeria </span>
                         </div>
                     </div>
 

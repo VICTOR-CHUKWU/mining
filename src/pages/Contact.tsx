@@ -25,25 +25,27 @@ const ContactPage = () => {
                 </div>
                 <div className=" grid grid-cols-1 lg:grid-cols-3">
                     <div>
-                        <div className=" mt-7 bg-yellow py-14 px-10 rounded-l-md">
+                        <div className=" mt-7 bg-yellow py-14 px-5 rounded-l-xl">
                             <div className=" flex items-center gap-8 mb-7">
                                 <HomeIcon className="pointer-events-none text-white w-7 h-7" />
 
-                                <p className=" text-sm text-white">
-                                    No 14, Oba Ovoranwen Street, Gwarimpa Estate, Abuja, Nigeria.
+                                <p className=" text-sm md:text-xl text-white">
+                                    4a Maman Nasir Street, Asokoro, Abuja-Nigeria
                                 </p>
                             </div>
-                            <div className=" flex items-center gap-8 mb-7">
-                                <EnvelopeIcon className="pointer-events-none text-white w-5 h-5" />
 
-                                <p className="text-sm text-white">
-                                    Email: Tolanichidinma376@gmail.com
-                                </p>
-                            </div>
-                            <div className=" flex items-center gap-8">
+                            <div className=" flex items-center gap-8 mb-7">
                                 <DevicePhoneMobileIcon className="pointer-events-none text-white w-5 h-5" />
 
-                                <p className="text-sm text-white">Telephone: +90 23312789</p>
+                                <p className="text-sm md:text-xl text-white">Telephone: +234 (0) 8030796358</p>
+                            </div>
+
+                            <div className=" flex items-center gap-8">
+                                <EnvelopeIcon className="pointer-events-none text-white w-5 h-5" />
+
+                                <p className="text-sm md:text-xl text-white">
+                                    Email: info@albarikamining.com
+                                </p>
                             </div>
                         </div>
                     </div>
